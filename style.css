@@ -30,3 +30,8 @@ header nav ul{
 header nav ul li{
     padding:0 10px;
 }
+header nav ul li a{
+    text-decoration: none;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #000000;
+}
