@@ -6,3 +6,12 @@ body{
     margin: 0;
     height: 100%;
 }
+header{
+    margin: 0;
+    background-image: url(./images/Rectangle\ 43.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 520px;
+    width: 100%;
+}
