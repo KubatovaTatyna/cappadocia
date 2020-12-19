@@ -35,3 +35,13 @@ header nav ul li a{
     font-family: 'Roboto Condensed', sans-serif;
     color: #000000;
 }
+.number-link-in-nav{
+    display: flex;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.phone-icon{
+    background-image: url(./images/Group.png);
+    width: 30px;
+    height: 30px;
+    transform: scale(.6);
+}
