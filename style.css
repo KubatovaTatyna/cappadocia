@@ -60,6 +60,12 @@ header nav ul li a{
 .fairy-tail-container{
     display: flex;
     justify-content: flex-start;
+    margin:35px 0;
+    max-width: 75%;
+    width: 100%;
+}
+.heading-in-fairy-tail-div{
+    transform: scale(.8);
 }
 .under-the-heading-in-fairy-tail-div{
     font-family: 'Roboto Condensed', sans-serif;
@@ -67,5 +73,9 @@ header nav ul li a{
     font-size: 20px;
     font-weight: 300;
     margin: 0;
-    padding-left: 150px;
+    padding-left: 250px;
+}
+.picture-in-fairy-tail-div{
+    transform: scale(.8);
+    transform-origin:top left;
 }
