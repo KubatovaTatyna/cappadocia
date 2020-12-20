@@ -76,4 +76,12 @@ header nav ul li a{
     height: 125px;
     transform: scale(.5);
 }
+.under-the-heading-in-fairy-tail-div{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 300;
+    margin: 0;
+    padding-left: 150px;
+}
 
