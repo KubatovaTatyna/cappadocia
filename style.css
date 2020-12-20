@@ -12,7 +12,7 @@ header{
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 520px;
+    height: 650px;
     width: 100%;
 }
 header nav{
@@ -40,21 +40,14 @@ header nav ul li a{
     font-family: 'Roboto Condensed', sans-serif;
 }
 .phone-icon{
-    background-image: url(./images/Group.png);
-    width: 30px;
-    height: 30px;
-    transform: scale(.6);
+    transform: scale(.8);
 }
 .heading-in-header{
     max-width: 80%;
-    margin: auto;
+    margin:0 auto;
 }
 .major-heading-in-header{
-    background-image: url(./images/Cappadocia.png);
-    background-repeat: no-repeat;
-    height: 264px;
-    transform: scale(.7);
-    margin: 0;
+    transform: scale(.8);
 }
 .under-the-heading-in-header{
     font-family: 'Roboto Condensed', sans-serif;
@@ -66,15 +59,7 @@ header nav ul li a{
 }
 .fairy-tail-container{
     display: flex;
-    max-width: %;
-    margin: 0 auto;
-}
-.heading-in-fairy-tail-div{
-    background-image: url(./images/Fairy\ tail.png);
-    background-repeat: no-repeat;
-    width: 330px;
-    height: 125px;
-    transform: scale(.5);
+    justify-content: flex-start;
 }
 .under-the-heading-in-fairy-tail-div{
     font-family: 'Roboto Condensed', sans-serif;
@@ -83,11 +68,4 @@ header nav ul li a{
     font-weight: 300;
     margin: 0;
     padding-left: 150px;
-}
-.picture-in-fairy-tail-div{
-    background-image: url(./images/Rectangle\ 19.jpg);
-    width:1550px;
-    height:500px;
-    transform: scale(.8);
-    background-size: cover;
 }
