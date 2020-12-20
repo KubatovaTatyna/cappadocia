@@ -64,3 +64,16 @@ header nav ul li a{
     margin: 0;
     padding-left: 550px;
 }
+.fairy-tail-container{
+    display: flex;
+    max-width: 70%;
+    margin: 0 auto;
+}
+.heading-in-fairy-tail-div{
+    background-image: url(./images/Fairy\ tail.png);
+    background-repeat: no-repeat;
+    width: 330px;
+    height: 125px;
+    transform: scale(.5);
+}
+
