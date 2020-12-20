@@ -81,6 +81,7 @@ header nav ul li a{
 }
 .picture-in-fairy-tail-div{
     width: 750px;
+    height: 200px;
     transform: scale(.7);
     transform-origin:top left;
 }
@@ -92,4 +93,21 @@ header nav ul li a{
 .list-in-fairy-tail-div ul{
     list-style-type: none;
     text-align: left;
+}
+.our-trip-container{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 100px;
+}
+.picture-in-our-trip-div{
+    transform: scale(.7);
+    transform-origin: top right;
+}
+.under-the-heading-in-our-trip-div{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 300;
+    margin: 0;
+    padding-left: 200px;
 }
