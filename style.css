@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;1,300&display=swap');
 *{
     box-sizing: border-box;
 }
@@ -44,4 +44,23 @@ header nav ul li a{
     width: 30px;
     height: 30px;
     transform: scale(.6);
+}
+.heading-in-header{
+    max-width: 80%;
+    margin: auto;
+}
+.major-heading-in-header{
+    background-image: url(./images/Cappadocia.png);
+    background-repeat: no-repeat;
+    height: 264px;
+    transform: scale(.7);
+    margin: 0;
+}
+.under-the-heading-in-header{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-style: italic;
+    font-size: 45px;
+    font-weight: 300;
+    margin: 0;
+    padding-left: 550px;
 }
