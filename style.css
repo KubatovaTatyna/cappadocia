@@ -61,8 +61,12 @@ header nav ul li a{
     display: flex;
     justify-content: flex-start;
     margin:35px 0;
-    max-width: 75%;
+    max-width: 85%;
     width: 100%;
+}
+.heading-container{
+    margin-top: 250px;
+    margin-bottom: 100px;
 }
 .heading-in-fairy-tail-div{
     transform: scale(.8);
@@ -76,6 +80,16 @@ header nav ul li a{
     padding-left: 250px;
 }
 .picture-in-fairy-tail-div{
-    transform: scale(.8);
+    width: 750px;
+    transform: scale(.7);
     transform-origin:top left;
+}
+.list-in-fairy-tail-div div{
+    font-family: 'Roboto Condensed', sans-serif;
+     margin-bottom: 25px;
+     text-align: left;
+}
+.list-in-fairy-tail-div ul{
+    list-style-type: none;
+    text-align: left;
 }
