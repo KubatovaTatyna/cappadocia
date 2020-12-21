@@ -80,19 +80,21 @@ header nav ul li a{
     padding-left: 250px;
 }
 .picture-in-fairy-tail-div{
-    width: 750px;
-    height: 200px;
-    transform: scale(.7);
-    transform-origin:top left;
+    width: 760px;
+    height: 500px;
+    margin-right: 40px;
 }
 .list-in-fairy-tail-div div{
     font-family: 'Roboto Condensed', sans-serif;
-     margin-bottom: 25px;
-     text-align: left;
+     margin-bottom: 15px;
+     transform: scale(.9);
+}
+.list-in-fairy-tail-div h2{
+    font-weight: 400;
 }
 .list-in-fairy-tail-div ul{
     list-style-type: none;
-    text-align: left;
+    padding: 0;
 }
 .our-trip{
     margin: 150px 0;
@@ -100,15 +102,14 @@ header nav ul li a{
 .our-trip-container{
     display: flex;
     justify-content: flex-end;
+    max-width: 75%;
+    margin-left: auto;
     margin-top: 100px;
-    max-width: 85%;
-    margin: auto;
 }
 .picture-in-our-trip-div{
-    transform: scale(.7);
-    transform-origin: top right;
-    width:750px;
-    height: 350px;
+    width:760px;
+    height:795px;
+    margin-left:100px ;
 }
 .under-the-heading-in-our-trip-div{
     font-family: 'Roboto Condensed', sans-serif;
@@ -123,6 +124,7 @@ header nav ul li a{
 }
 .list-in-our-trip-div ul{
     list-style-type: none;
+    padding: 0;
 }
 .list-in-our-trip-div h2{
     font-weight: 400;
@@ -136,4 +138,12 @@ header nav ul li a{
 .button-in-our-trip-div:hover{
     background-color: #E2AB3F;
     color: white;
+}
+.under-the-heading-in-hotel-div{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 300;
+    margin: 0;
+    padding-left: 120px;
 }
