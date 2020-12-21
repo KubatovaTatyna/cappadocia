@@ -94,6 +94,9 @@ header nav ul li a{
     list-style-type: none;
     text-align: left;
 }
+.our-trip{
+    margin: 150px 0;
+}
 .our-trip-container{
     display: flex;
     justify-content: flex-end;
