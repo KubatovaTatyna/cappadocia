@@ -111,7 +111,7 @@ header nav ul li a{
 .picture-in-our-trip-div{
     width:760px;
     height:795px;
-    margin-left:100px ;
+    margin-left:150px ;
 }
 .under-the-heading-in-our-trip-div{
     font-family: 'Roboto Condensed', sans-serif;
@@ -186,4 +186,17 @@ header nav ul li a{
 .picture-in-hotel-div{
     height: 600px;
     width: 400px;
+}
+.under-heading-in-price-div{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 300;
+    margin: 0;
+    padding-left: 120px;
+}
+.heading-container-in-price-div{
+    max-width: 75%;
+    margin: auto;
+    margin-bottom: 50px;
 }
