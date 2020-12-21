@@ -204,6 +204,7 @@ header nav ul li a{
     display: flex;
     max-width: 75%;
     margin: 0 auto;
+    margin-bottom: 150px;
     font-size: 14px;
     font-weight: 300;
     font-family: 'Roboto Condensed', sans-serif;
@@ -220,6 +221,10 @@ header nav ul li a{
     list-style-type: none;
     padding: 0;
 
+}
+.price-container div ul li{
+    margin: 10px;
+    margin-left: 0;
 }
 .picture-of-balloon-1{
     width: 53px;
@@ -240,5 +245,15 @@ header nav ul li a{
     height: 285px;
     position: absolute;
     left: 1100px;
-    top: 3520px;
+    top: 3585px;
+}
+.tour-date-container{
+    display: flex;
+    max-width: 75%;
+    margin: 0 auto;
+}
+.picture-in-tour-date-div{
+    width: 500px;
+    height: 700px;
+    margin-left: 115px;
 }
