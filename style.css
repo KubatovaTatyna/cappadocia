@@ -124,3 +124,13 @@ header nav ul li a{
 .list-in-our-trip-div h2{
     font-weight: 400;
 }
+.button-in-our-trip-div{
+    border: 1px solid #E2AB3F;
+    padding:5px ;
+    text-align: center;
+    cursor: pointer;
+}
+.button-in-our-trip-div:hover{
+    background-color: #E2AB3F;
+    color: white;
+}
