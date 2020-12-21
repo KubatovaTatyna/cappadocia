@@ -67,8 +67,8 @@ header nav ul li a{
     width: 100%;
 }
 .heading-container{
-    margin-top: 250px;
-    margin-bottom: 100px;
+    margin-top: 100px;
+    margin-bottom: 50px;
 }
 .heading-in-fairy-tail-div{
     transform: scale(.8);
@@ -199,4 +199,25 @@ header nav ul li a{
     max-width: 75%;
     margin: auto;
     margin-bottom: 50px;
+}
+.price-container{
+    display: flex;
+    max-width: 75%;
+    margin: 0 auto;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.price-container div h1{
+    font-weight:400 ;
+}
+.price-container div:first-child{
+    max-width: 50%;
+    margin-right:100px;
+    max-width: 40%;
+}
+.price-container div ul{
+    list-style-type: none;
+    padding: 0;
+
 }
