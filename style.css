@@ -221,3 +221,24 @@ header nav ul li a{
     padding: 0;
 
 }
+.picture-of-balloon-1{
+    width: 53px;
+    height: 88px;
+    position: absolute;
+    left: 1000px;
+    top: 3700px;
+}
+.picture-of-balloon-2{
+    width: 53px;
+    height: 88px;
+    position: absolute;
+    left: 1070px;
+    top: 3840px;
+}
+.picture-of-balloon-3{
+    width: 186px;
+    height: 285px;
+    position: absolute;
+    left: 1100px;
+    top: 3520px;
+}
