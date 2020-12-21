@@ -98,10 +98,14 @@ header nav ul li a{
     display: flex;
     justify-content: flex-end;
     margin-top: 100px;
+    max-width: 85%;
+    margin: auto;
 }
 .picture-in-our-trip-div{
     transform: scale(.7);
     transform-origin: top right;
+    width:750px;
+    height: 350px;
 }
 .under-the-heading-in-our-trip-div{
     font-family: 'Roboto Condensed', sans-serif;
@@ -110,4 +114,13 @@ header nav ul li a{
     font-weight: 300;
     margin: 0;
     padding-left: 200px;
+}
+.list-in-our-trip-div div{
+    font-family:'Roboto Condensed', sans-serif ;
+}
+.list-in-our-trip-div ul{
+    list-style-type: none;
+}
+.list-in-our-trip-div h2{
+    font-weight: 400;
 }
