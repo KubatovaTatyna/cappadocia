@@ -43,9 +43,14 @@ header nav ul li a{
     transform: scale(.8);
 }
 .heading-in-header{
+    display: flex;
+    flex-direction: column;
     max-width: 80%;
-    margin:0 auto;
+    margin:auto;
     width: 100%;
+}
+.height-of-heading-in-header{
+    height: 200px;
 }
 .major-heading-in-header{
     transform: scale(.8);
@@ -58,6 +63,8 @@ header nav ul li a{
     font-weight: 300;
     margin: 0;
     padding-left: 550px;
+    width: 100%;
+
 }
 .fairy-tail-container{
     display: flex;
