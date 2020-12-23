@@ -57,7 +57,6 @@ header nav ul li a{
     height: 200px;
 }
 .major-heading-in-header{
-    transform: scale(.8);
     max-width: 100%;
 }
 .under-the-heading-in-header{
@@ -143,7 +142,7 @@ header nav ul li a{
 }
 .button-in-our-trip-div{
     border: 1px solid #E2AB3F;
-    padding:5px ;
+    padding:4% 10%;
     text-align: center;
     cursor: pointer;
     background-color: white;
@@ -311,10 +310,16 @@ header nav ul li a{
 }
 .button-in-tour-date-div{
     border:1px solid #E2AB3F ;
-    padding: 8px 16px;
+    padding: 2% 8%;
+    background-color: white;
     width: 50%;
     text-align: center;
     margin: 0 17%;
+    cursor: pointer;
+}
+.button-in-tour-date-div:hover{
+    color: white;
+    background-color: #E2AB3F;
 }
 footer{
     background-image: url(./images/Rectangle\ 42.png);
@@ -387,10 +392,6 @@ footer{
         margin: 0 auto;
         flex-shrink: 2;
     }
-    .button-in-our-trip-div{
-        max-width: 28%;
-        flex-shrink: 2;
-    }
     .picture-in-our-trip-div{
         max-width: 100%;
     }
@@ -441,9 +442,11 @@ footer{
     .footer-container{
         flex-wrap: wrap-reverse;
         max-width: 70%;
+        margin: 0 auto;
     }
     .heading-in-footer{
         margin:0 auto;
         width: 100%;
+        max-width: 100%;
     }
 }
