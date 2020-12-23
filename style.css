@@ -402,4 +402,14 @@ footer{
     .picture-in-hotel-div{
         max-width: 100%;
     }
+    .price-container{
+        flex-wrap: wrap;
+        max-width: 70%;
+    }
+    .balloons{
+        display: none;
+    }
+    .price-container div{
+        width: 100%;
+    }
 }
