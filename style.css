@@ -20,6 +20,7 @@ header nav{
     display: flex;
     justify-content: space-between;
     max-width: 70%;
+    width: 100%;
     padding-top: 30px;
 }
 header nav ul{
@@ -55,16 +56,19 @@ header nav ul li a{
 }
 .height-of-heading-in-header{
     height: 200px;
+    margin: 0 auto;
+    margin-top: 50px;
 }
 .major-heading-in-header{
     max-width: 100%;
+    transform: scale(.8);
 }
 .under-the-heading-in-header{
     font-family: 'Roboto Condensed', sans-serif;
     font-style: italic;
     font-size: 45px;
     font-weight: 300;
-    margin: 0;
+    margin-top:26px;
     text-align: right;
 
 }
@@ -338,6 +342,7 @@ footer{
 }
 .balloon-picture-in-footer{
     background-image: url(./images/kisspng-flight-hot-air-balloon-computer-icons-aerostat-5afe08ad4b2f92\ 2.png);
+    background-repeat: no-repeat;
     width: 356px;
     height: 527px;
     margin-top: 20px;
@@ -370,9 +375,19 @@ footer .number-link:nth-child(3){
 }
 
 @media (max-width:1250px){
+    header nav{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    header nav ul{
+        flex-direction: column;
+    }
+    header nav ul li{
+        margin-bottom: 15px;
+    }
     .under-the-heading-in-header{
-        max-width: 70%;
-        margin-left: auto;
+        display: none;
     }
     .fairy-tail-container{
         flex-wrap: wrap;
@@ -438,6 +453,7 @@ footer .number-link:nth-child(3){
     }
     .list-in-tour-date-div{
         max-width: 100%;
+        margin-left: 12%;
     }
     footer{
         flex-shrink: 2;
@@ -456,5 +472,13 @@ footer .number-link:nth-child(3){
         height: 18px;
         width: 18px;
         margin-right: 5px;
+    }
+    .balloon-picture-in-footer{
+        background-size: 100%;
+    }
+}
+@media (max-width:1310px){
+    .balloons{
+        display: none;
     }
 }
