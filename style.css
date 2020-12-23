@@ -365,6 +365,9 @@ footer{
 .heading-in-balloon-picture{
     margin-bottom: 20px;
 }
+footer .number-link:nth-child(3){
+    margin-bottom: 45px;
+}
 
 @media (max-width:1250px){
     .under-the-heading-in-header{
@@ -448,5 +451,10 @@ footer{
         margin:0 auto;
         width: 100%;
         max-width: 100%;
+    }
+    .email-icon-in-balloon-picture{
+        height: 18px;
+        width: 18px;
+        margin-right: 5px;
     }
 }
