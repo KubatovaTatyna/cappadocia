@@ -412,4 +412,17 @@ footer{
     .price-container div{
         width: 100%;
     }
+    .tour-date-container{
+        flex-wrap: wrap-reverse;
+    }
+    .picture-in-tour-date-div{
+        margin-left: 0;
+        margin-bottom: 40px;
+        max-width: 100%;
+    }
+    .list-in-tour-date-div{
+        max-width: 100%;
+    }
+
+
 }
