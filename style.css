@@ -38,9 +38,13 @@ header nav ul li a{
 .number-link{
     display: flex;
     font-family: 'Roboto Condensed', sans-serif;
+    align-items: baseline;
 }
+
 .phone-icon{
-    transform: scale(.8);
+    height: 18px;
+    width: 18px;
+    margin-right: 5px;
 }
 .heading-in-header{
     display: flex;
@@ -62,8 +66,7 @@ header nav ul li a{
     font-size: 45px;
     font-weight: 300;
     margin: 0;
-    padding-left: 550px;
-    width: 100%;
+    text-align: right;
 
 }
 .fairy-tail-container{
@@ -221,7 +224,6 @@ header nav ul li a{
     font-weight:400 ;
 }
 .price-container div:first-child{
-    max-width: 50%;
     margin-right:100px;
     max-width: 40%;
 }
@@ -333,11 +335,11 @@ footer{
     background-image: url(./images/kisspng-flight-hot-air-balloon-computer-icons-aerostat-5afe08ad4b2f92\ 2.png);
     width: 356px;
     height: 527px;
-    margin-right: 60px;
     margin-top: 20px;
 }
 .heading-in-footer{
     margin-bottom: 250px;
+    margin-left: 60px;
 }
 .icons{
     display: flex;
@@ -359,8 +361,11 @@ footer{
     margin-bottom: 20px;
 }
 
-@media (max-width:1200px){
-
+@media (max-width:1250px){
+    .under-the-heading-in-header{
+        max-width: 70%;
+        margin-left: auto;
+    }
     .fairy-tail-container{
         flex-wrap: wrap;
         max-width: 70%;
@@ -375,6 +380,7 @@ footer{
         max-width: 90%;
         margin-left: auto;
     }
+    
     .our-trip-container{
         flex-direction: column-reverse;
         max-width: 70%;
@@ -402,6 +408,10 @@ footer{
     .picture-in-hotel-div{
         max-width: 100%;
     }
+    .list-in-hotel-div{
+        max-width: 70%;
+        width: 100%;
+    }
     .price-container{
         flex-wrap: wrap;
         max-width: 70%;
@@ -409,20 +419,31 @@ footer{
     .balloons{
         display: none;
     }
-    .price-container div{
+    .price-container div:first-child{
         width: 100%;
+        max-width: 70%;
+        margin-right: 0;
     }
     .tour-date-container{
         flex-wrap: wrap-reverse;
     }
     .picture-in-tour-date-div{
-        margin-left: 0;
+        margin-left: 5%;
         margin-bottom: 40px;
         max-width: 100%;
     }
     .list-in-tour-date-div{
         max-width: 100%;
     }
-
-
+    footer{
+        flex-shrink: 2;
+    }
+    .footer-container{
+        flex-wrap: wrap-reverse;
+        max-width: 70%;
+    }
+    .heading-in-footer{
+        margin:0 auto;
+        width: 100%;
+    }
 }
