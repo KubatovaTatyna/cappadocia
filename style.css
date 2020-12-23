@@ -357,3 +357,21 @@ footer{
 .heading-in-balloon-picture{
     margin-bottom: 20px;
 }
+
+@media (max-width:1200px){
+    
+    .fairy-tail-container{
+        flex-wrap: wrap;
+        max-width: 70%;
+        margin: 0 auto;
+        flex-shrink: 2;
+    }
+    .picture-in-fairy-tail-div{
+        max-width: 90%;
+        margin-bottom: 25px;
+    }
+    .heading-container{
+        max-width: 90%;
+        margin-left: auto;
+    }
+}
