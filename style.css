@@ -474,6 +474,22 @@ footer .number-link:nth-child(3){
     .balloon-picture-in-footer{
         background-size: 100%;
     }
+    .heading-container{
+        max-width: 70%;
+        margin:  0 auto;
+        margin-top: 150px;
+    }
+    .heading-container-in-hotel-div{
+        max-width: 70%;
+        margin: 0 auto;
+    }
+    .heading-container-in-price-div{
+        max-width: 70%;
+        margin: 0 auto;
+    }
+    .heading-in-balloon-picture{
+        max-width: 100%;
+    }
 }
 @media (max-width:1310px){
     .balloons{
