@@ -176,9 +176,6 @@ header nav ul li a{
     max-width: 75%;
     margin: 0 auto;
 }
-.picture-in-hotel-div{
-    margin-right: 100px;
-}
 .list-in-hotel-div{
     font-size: 14px;
     font-weight: 300;
@@ -396,8 +393,9 @@ footer .number-link:nth-child(3){
         flex-shrink: 2;
     }
     .picture-in-fairy-tail-div{
-        max-width: 90%;
+        max-width: 100%;
         margin-bottom: 25px;
+        margin-right: 0;
     }
     .heading-container{
         max-width: 90%;
@@ -453,7 +451,6 @@ footer .number-link:nth-child(3){
     }
     .list-in-tour-date-div{
         max-width: 100%;
-        margin-left: 12%;
     }
     footer{
         flex-shrink: 2;
@@ -461,12 +458,13 @@ footer .number-link:nth-child(3){
     .footer-container{
         flex-wrap: wrap-reverse;
         max-width: 70%;
-        margin: 0 auto;
+        margin: 0px auto;
     }
     .heading-in-footer{
         margin:0 auto;
         width: 100%;
         max-width: 100%;
+        margin-top: 25px;
     }
     .email-icon-in-balloon-picture{
         height: 18px;
