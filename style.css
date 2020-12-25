@@ -197,6 +197,7 @@ header nav ul li a{
 .picture-in-hotel-div{
     height: 600px;
     width: 400px;
+    margin-right: 100px;
 }
 .under-heading-in-price-div{
     font-family: 'Roboto Condensed', sans-serif;
@@ -424,6 +425,7 @@ footer .number-link:nth-child(3){
     }
     .picture-in-hotel-div{
         max-width: 100%;
+        margin-right: 0;
     }
     .list-in-hotel-div{
         max-width: 70%;
