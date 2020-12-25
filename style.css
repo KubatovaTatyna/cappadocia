@@ -146,13 +146,22 @@ header nav ul li a{
 }
 .button-in-our-trip-div{
     border: 1px solid #E2AB3F;
-    padding:4% 10%;
+    padding:10px 20px;
     text-align: center;
     cursor: pointer;
     background-color: white;
 }
 .button-in-our-trip-div:hover{
     background-color: #E2AB3F;
+}
+.button-in-our-trip-div a{
+    text-decoration: none;
+    font-family:'Roboto Condensed', sans-serif ;
+    font-weight: 300;
+    font-size: 16px;
+    color: black;
+}
+.button-in-our-trip-div  a:hover{
     color: white;
 }
 .heading-container-in-hotel-div{
@@ -394,9 +403,14 @@ footer .number-link:nth-child(3){
         flex-shrink: 2;
     }
     .picture-in-fairy-tail-div{
+        transform: scale(.8);
         max-width: 100%;
         margin-bottom: 25px;
-        margin-right: 0;
+        margin: 0 auto;
+    }
+    .list-in-fairy-tail-div{
+        max-width: 85%;
+        margin: 0 auto;
     }
     .heading-container{
         max-width: 90%;
