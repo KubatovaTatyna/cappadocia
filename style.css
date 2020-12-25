@@ -72,6 +72,12 @@ header nav ul li a{
     text-align: right;
 
 }
+.fairy-tail{
+    display: flex;
+    flex-direction: column;
+    max-width: 70%;
+    margin: 0 auto;
+}
 .fairy-tail-container{
     display: flex;
     justify-content: flex-start;
