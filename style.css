@@ -8,7 +8,7 @@ body{
     height: 100%;
 }
 header{
-    background-image: url(./images/Rectangle\ 43.png);
+    background-image: url(./images/rectangle-43.png);
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -324,7 +324,7 @@ header nav ul li a{
     background-color: #E2AB3F;
 }
 footer{
-    background-image: url(./images/Rectangle\ 42.png);
+    background-image: url(./images/rectangle-42.png);
     background-position: bottom;
     background-size: cover;
     width: 100%;
