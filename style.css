@@ -86,17 +86,18 @@ header nav ul li a{
 }
 .fairy-tail-container{
     display: flex;
-    justify-content: flex-start;
-    margin:35px 0;
-    max-width: 85%;
-    width: 100%;
 }
 .heading-container{
     margin-top: 100px;
     margin-bottom: 50px;
+    margin-right:auto;
 }
 .heading-in-fairy-tail-div{
-    transform: scale(.8);
+    font-family: 'Balqis';
+    font-weight: 400;
+    font-size: 80px;
+    color: #E2AB3F;
+    margin: 0;
 }
 .under-the-heading-in-fairy-tail-div{
     font-family: 'Roboto Condensed', sans-serif;
@@ -104,19 +105,25 @@ header nav ul li a{
     font-size: 20px;
     font-weight: 300;
     margin: 0;
-    padding-left: 170px;
+    padding-left: 100px;
 }
 .picture-in-fairy-tail-div{
-    width: 760px;
+    width: 700px;
     height: 500px;
-    margin-right: 40px;
-    position: absolute;
-    left: 0;
+    margin-left: 0;
+    transform: translate(-230px);
+}
+.list-in-fairy-tail-div{
+    margin: auto 0;
+    transform: translate(-150px);
 }
 .list-in-fairy-tail-div div{
     font-family: 'Roboto Condensed', sans-serif;
-     margin-bottom: 15px;
-     transform: scale(.9);
+     margin-bottom: 25px;
+     width: 390px;
+}
+.list-in-fairy-tail-div div:last-child{
+    margin-bottom: 0;
 }
 .list-in-fairy-tail-div h2{
     font-weight: 400;
@@ -127,17 +134,25 @@ header nav ul li a{
 }
 .our-trip{
     margin: 150px 0;
+    display: flex;
+    flex-direction: column;
+    max-width: 70%;
+    margin: auto;
 }
 .our-trip-container{
     display: flex;
-    justify-content: flex-end;
-    max-width: 75%;
-    margin-left: auto;
-    margin-top: 100px;
+}
+.heading-in-our-trip-div{
+    font-family: 'Balqis';
+    font-weight: 400;
+    font-size: 80px;
+    color: #E2AB3F;
+    margin: 0;
 }
 .picture-in-our-trip-div{
-    width:760px;
-    height:795px;
+    width:700px;
+    height:735px;
+    transform: translate(179px);
 }
 .under-the-heading-in-our-trip-div{
     font-family: 'Roboto Condensed', sans-serif;
@@ -146,6 +161,9 @@ header nav ul li a{
     font-weight: 300;
     margin: 0;
     padding-left: 200px;
+}
+.list-in-our-trip-div{
+    width: 100%;
 }
 .list-in-our-trip-div div{
     font-family:'Roboto Condensed', sans-serif ;
