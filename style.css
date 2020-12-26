@@ -26,7 +26,7 @@ header nav{
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    max-width: 70%;
+    max-width: 75%;
     width: 100%;
     padding-top: 30px;
 }
@@ -135,7 +135,7 @@ header nav ul li a{
 .our-trip{
     display: flex;
     flex-direction: column;
-    max-width: 83%;
+    max-width: 84.5%;
     margin-left: auto;
     margin-top: 100px;
 }
@@ -303,26 +303,27 @@ header nav ul li a{
     height: 88px;
     position: absolute;
     left: 1000px;
-    top: 3550px;
+    top: 3600px;
 }
 .picture-of-balloon-2{
     width: 53px;
     height: 88px;
     position: absolute;
     left: 1070px;
-    top: 3650px;
+    top: 3700px;
 }
 .picture-of-balloon-3{
     width: 186px;
     height: 285px;
     position: absolute;
     left: 1100px;
-    top: 3375px;
+    top: 3450px;
 }
 .tour-date-container{
     display: flex;
     max-width: 75%;
     margin: 0 auto;
+    margin-top: 100px;
 }
 .picture-in-tour-date-div{
     width: 500px;
@@ -346,9 +347,19 @@ header nav ul li a{
 }
 .heading-in-tour-date-div{
     padding-right: 50px;
+    font-family: 'Balqis';
+    font-weight: 400;
+    font-size: 80px;
+    color: #E2AB3F;
+    margin: 0;
 }
 .price-in-tour-date-div{
     padding-right:50px ;
+    font-family: 'Balqis';
+    font-weight: 400;
+    font-size: 80px;
+    color: #E2AB3F;
+    margin: 0;
 }
 .under-the-price-in-tour-date-div{
     font-family: 'Roboto Condensed', sans-serif;
@@ -371,6 +382,10 @@ header nav ul li a{
     margin: 10px;
     margin-right: 0;
 }
+::-webkit-input-placeholder{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 13px;
+}
 .button-in-tour-date-div{
     border:1px solid #E2AB3F ;
     padding: 2% 8%;
@@ -378,11 +393,15 @@ header nav ul li a{
     width: 50%;
     text-align: center;
     margin: 0 17%;
-    cursor: pointer;
 }
 .button-in-tour-date-div:hover{
-    color: white;
     background-color: #E2AB3F;
+}
+.button-in-tour-date-div a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
 }
 footer{
     background-image: url(./images/rectangle-42.png);
