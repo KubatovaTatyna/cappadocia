@@ -606,6 +606,14 @@ footer .number-link:nth-child(3){
     .under-the-price-in-tour-date-div{
         margin: 0 auto;
         padding-left: 0;
+    }.list-in-tour-date-div h2{
+        margin: 0 auto;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .button-in-tour-date-div{
+        margin: 5px auto;
+        width: 40%;
     }
 }
 
