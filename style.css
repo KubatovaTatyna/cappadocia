@@ -554,6 +554,10 @@ footer .number-link:nth-child(3){
     .price-container{
         flex-direction: column;
     }
+    .heading-container-in-price-div{
+        margin: 100px auto;
+        margin-bottom: 50px;
+    }
 }
 
 
