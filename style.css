@@ -515,6 +515,12 @@ footer .number-link:nth-child(3){
         transform: scale(1);
         max-width: 100%;
     }
+    .adaptation-container{
+        display: flex;
+        max-width: 100%;
+        justify-content: space-around;
+        flex-grow: 24;
+    }
 }
 
 @media (max-width:1310px){
