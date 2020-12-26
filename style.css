@@ -554,10 +554,14 @@ footer .number-link:nth-child(3){
     .picture-in-hotel-div{
         margin: 0 auto;
         width: 80%;
+        height: 100%;
     }
     .picture-container-in-hotel-div{
         max-width: 100%;
         margin: 0 auto;
+    }
+    .picture-container-in-hotel-div div{
+        margin-top: 5px;
     }
     .price-container{
         flex-direction: column;
@@ -638,5 +642,11 @@ footer .number-link:nth-child(3){
     .picture-container-in-hotel-div{
         flex-direction: column;
         margin: 0;
+    }
+    .picture-container-in-hotel-div img{
+        height: 100%;
+    }
+    .picture-container-in-hotel-div div{
+        margin: 3px;
     }
 }
