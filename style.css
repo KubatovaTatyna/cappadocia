@@ -531,3 +531,10 @@ footer .number-link:nth-child(3){
         margin: 100px auto;
         margin-bottom: 50px;
     }
+    .hotel{
+        margin: 0 auto;
+    }
+    .hotel-container{
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
