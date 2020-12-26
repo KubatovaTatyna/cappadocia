@@ -504,6 +504,10 @@ footer .number-link:nth-child(3){
         margin: 100px auto;
         margin-bottom: 50px;
     }
+    .our-trip-container{
+        flex-direction: column-reverse;
+        margin: 0 auto;
+    }
 }
 
 @media (max-width:1310px){
