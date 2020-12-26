@@ -620,6 +620,9 @@ footer .number-link:nth-child(3){
     }.heading-in-footer{
         max-width: 100%;
         margin: 0 auto;
+    }.balloon-picture-in-footer{
+        margin: 0 auto;
+        max-width: 100%;
     }
 }
 
