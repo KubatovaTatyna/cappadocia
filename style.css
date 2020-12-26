@@ -538,3 +538,8 @@ footer .number-link:nth-child(3){
         flex-wrap: wrap;
         margin: 0 auto;
     }
+    .list-in-hotel-div{
+        margin: 0 auto;
+        max-width: 80%;
+        text-align: justify;
+    }
