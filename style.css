@@ -552,3 +552,16 @@ footer .number-link:nth-child(3){
         margin: 0 auto;
     }
 }
+
+
+@media (max-width:1310px){
+    .balloons{
+        display: none;
+    }
+}
+@media (max-width:715px){
+    .picture-container-in-hotel-div{
+        flex-direction: column;
+        margin: 0;
+    }
+}
