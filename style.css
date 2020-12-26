@@ -43,6 +43,9 @@ header nav ul li a{
     font-family: 'Roboto Condensed', sans-serif;
     color: #000000;
 }
+header nav ul li:first-child a{
+    border-bottom: 2px solid hsl(305, 1%, 40%);
+}
 .number-link{
     display: flex;
     font-family: 'Roboto Condensed', sans-serif;
@@ -67,15 +70,15 @@ header nav ul li a{
 .major-heading-in-header{
     font-family: 'Balqis';
     font-weight: 400;
-    font-size: 15vw;
+    font-size: 14vw;
     margin: 0 auto;
 }
 .under-the-heading-in-header{
     font-family: 'Roboto Condensed', sans-serif;
     font-style: italic;
     font-size: 3.5vw;
-    font-weight: 300;
-    padding-left:400px;
+    font-weight: 350;
+    padding-left:390px;
     margin: 0px;
 }
 .fairy-tail{
@@ -105,7 +108,7 @@ header nav ul li a{
     font-size: 20px;
     font-weight: 300;
     margin: 0;
-    padding-left: 100px;
+    padding-left: 145px;
 }
 .picture-in-fairy-tail-div{
     width: 700px;
@@ -238,10 +241,11 @@ header nav ul li a{
 }
 .picture-container-in-hotel-div{
     display: flex;
+    margin-bottom:15px ;
 }
 .picture-of-hotel{
-    width: 96%;
-    height: 140px;
+    width: 94%;
+    height: 100%;
     margin-left: 0;
     max-width: 100%;
 }
@@ -498,6 +502,7 @@ footer .number-link:nth-child(3){
     }
     .list-in-fairy-tail-div{
         transform: translate(0);
+        flex-wrap: wrap;
     }
     .list-in-fairy-tail-div div{
         text-align: justify;
@@ -561,7 +566,7 @@ footer .number-link:nth-child(3){
         margin: 0 auto;
     }
     .picture-container-in-hotel-div div{
-        margin-top: 5px;
+        margin-top: 15px;
     }
     .price-container{
         flex-direction: column;
