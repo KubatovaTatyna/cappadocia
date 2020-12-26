@@ -250,6 +250,13 @@ header nav ul li a{
     width: 400px;
     margin-right: 80px;
 }
+.price{
+    display: flex;
+    flex-direction: column;
+    max-width: 70%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
 .under-heading-in-price-div{
     font-family: 'Roboto Condensed', sans-serif;
     font-style: italic;
@@ -259,15 +266,18 @@ header nav ul li a{
     padding-left: 120px;
 }
 .heading-container-in-price-div{
-    max-width: 75%;
-    margin: auto;
+    margin-right: auto;
     margin-bottom: 50px;
+}
+.heading-in-price-div{
+    font-family: 'Balqis';
+    font-weight: 400;
+    font-size: 80px;
+    color: #E2AB3F;
+    margin: 0;
 }
 .price-container{
     display: flex;
-    max-width: 75%;
-    margin: 0 auto;
-    margin-bottom: 150px;
     font-size: 14px;
     font-weight: 300;
     font-family: 'Roboto Condensed', sans-serif;
@@ -293,21 +303,21 @@ header nav ul li a{
     height: 88px;
     position: absolute;
     left: 1000px;
-    top: 3700px;
+    top: 3550px;
 }
 .picture-of-balloon-2{
     width: 53px;
     height: 88px;
     position: absolute;
     left: 1070px;
-    top: 3840px;
+    top: 3650px;
 }
 .picture-of-balloon-3{
     width: 186px;
     height: 285px;
     position: absolute;
     left: 1100px;
-    top: 3585px;
+    top: 3375px;
 }
 .tour-date-container{
     display: flex;
