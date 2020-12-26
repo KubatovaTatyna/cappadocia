@@ -486,6 +486,12 @@ footer .number-link:nth-child(3){
         max-width: 95%;
         margin: 0 auto;
     }
+    .picture-in-fairy-tail-div{
+        transform: translate(0);
+        max-width: 100%;
+        width: 850px;
+        flex-grow: 8;
+    }
 }
 
 @media (max-width:1310px){
