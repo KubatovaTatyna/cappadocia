@@ -591,6 +591,22 @@ footer .number-link:nth-child(3){
         margin: 0 auto;
         margin-bottom: 5px;
     }
+    .heading-in-tour-date-div{
+        margin: 0 auto;
+        padding: 0;
+    }
+    .price-in-tour-date-div{
+        margin: 0 auto;
+        padding: 0;
+    }
+    .under-the-heading-in-tour-date-div{
+        margin: 0 auto;
+        padding-left: 0;
+    }
+    .under-the-price-in-tour-date-div{
+        margin: 0 auto;
+        padding-left: 0;
+    }
 }
 
 
