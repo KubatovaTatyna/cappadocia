@@ -492,6 +492,13 @@ footer .number-link:nth-child(3){
         width: 850px;
         flex-grow: 8;
     }
+    .list-in-fairy-tail-div{
+        transform: translate(0);
+    }
+    .list-in-fairy-tail-div div{
+        text-align: justify;
+        width: calc(0px + 100%);
+    }
 }
 
 @media (max-width:1310px){
