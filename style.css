@@ -617,6 +617,7 @@ footer .number-link:nth-child(3){
     }.footer-container{
         flex-direction: column-reverse;
         margin: auto;
+        height: 100%;
     }.heading-in-footer{
         max-width: 100%;
         margin: 0 auto;
