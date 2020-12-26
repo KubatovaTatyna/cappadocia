@@ -494,6 +494,7 @@ footer .number-link:nth-child(3){
         max-width: 100%;
         width: 850px;
         flex-grow: 8;
+        margin-bottom: 25px;
     }
     .list-in-fairy-tail-div{
         transform: translate(0);
