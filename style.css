@@ -511,6 +511,10 @@ footer .number-link:nth-child(3){
     .our-trip{
         margin: 0 auto;
     }
+    .picture-in-our-trip-div{
+        transform: scale(1);
+        max-width: 100%;
+    }
 }
 
 @media (max-width:1310px){
