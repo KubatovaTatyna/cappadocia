@@ -614,6 +614,9 @@ footer .number-link:nth-child(3){
     .button-in-tour-date-div{
         margin: 5px auto;
         width: 40%;
+    }.footer-container{
+        flex-direction: column-reverse;
+        margin: auto;
     }
 }
 
