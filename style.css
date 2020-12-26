@@ -661,6 +661,10 @@ footer .number-link:nth-child(3){
     .picture-container-in-hotel-div div{
         margin: 3px;
     }
+    .picture-in-tour-date-div{
+        width: 400px;
+        height: 500px;
+    }
 }
 @media (max-width:950px){
     .picture-in-fairy-tail-div{
@@ -673,6 +677,10 @@ footer .number-link:nth-child(3){
         width: 650px;
         height: 390px;
     }
+    .picture-in-tour-date-div{
+        width: 500px;
+        height: 600px;
+    }
 }
 @media(max-width:450px){
     .adaptation-container{
@@ -682,5 +690,9 @@ footer .number-link:nth-child(3){
     .button-div-in-our-trip{
         text-align: left;
         margin-left: 0;
+    }
+    .picture-in-tour-date-div{
+        width: 300px;
+        height: 400px;
     }
 }
