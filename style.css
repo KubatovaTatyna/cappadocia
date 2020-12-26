@@ -558,6 +558,15 @@ footer .number-link:nth-child(3){
         margin: 100px auto;
         margin-bottom: 50px;
     }
+    .price-container div:first-child{
+        max-width: 90%;
+        margin-right: 0;
+        text-align: center;
+    }
+    .price-container div:nth-last-child(2){
+        max-width: 90%;
+        text-align: center;
+    }
 }
 
 
