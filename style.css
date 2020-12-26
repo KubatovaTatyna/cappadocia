@@ -583,6 +583,14 @@ footer .number-link:nth-child(3){
         max-width: 100%;
         margin: 0 auto;
     }
+    .list-in-tour-date-div{
+        max-width: 100%;
+    }
+    .list-in-tour-date-div input{
+        width: 50%;
+        margin: 0 auto;
+        margin-bottom: 5px;
+    }
 }
 
 
