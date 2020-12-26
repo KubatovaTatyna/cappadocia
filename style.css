@@ -480,6 +480,12 @@ footer .number-link:nth-child(3){
     .under-the-heading-in-header{
         padding-left: 0;
     }
+    .fairy-tail-container{
+        flex-wrap: wrap;
+        transition: 5s;
+        max-width: 95%;
+        margin: 0 auto;
+    }
 }
 
 @media (max-width:1310px){
