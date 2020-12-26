@@ -181,6 +181,7 @@ header nav ul li:first-child a{
 .list-in-our-trip-div h2{
     font-weight: 400;
 }
+
 .button-in-our-trip-div{
     border: 1px solid #E2AB3F;
     padding:10px 20px;
@@ -197,6 +198,7 @@ header nav ul li:first-child a{
     font-weight: 300;
     font-size: 16px;
     color: black;
+    text-align: center;
 }
 .button-in-our-trip-div  a:hover{
     color: white;
@@ -636,6 +638,10 @@ footer .number-link:nth-child(3){
         margin: 0 auto;
         max-width: 100%;
     }
+    .button-div-in-our-trip{
+        text-align: center;
+        margin: 25px;
+    }
 }
 
 
@@ -666,5 +672,15 @@ footer .number-link:nth-child(3){
     .picture-in-fairy-tail-div{
         width: 650px;
         height: 390px;
+    }
+}
+@media(max-width:450px){
+    .adaptation-container{
+        flex-direction: column;
+        justify-content: baseline;
+    }
+    .button-div-in-our-trip{
+        text-align: left;
+        margin-left: 0;
     }
 }
