@@ -118,6 +118,7 @@ header nav ul li:first-child a{
 .list-in-fairy-tail-div{
     margin: auto 0;
     font-size: 14px;
+    transform: translate(-70px);
 }
 .list-in-fairy-tail-div div{
     font-family: 'Roboto Condensed', sans-serif;
