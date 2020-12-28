@@ -702,3 +702,8 @@ footer .number-link:nth-child(3){
         height: 650px;
     }
 }
+@media (max-width:750px){
+    .heading-in-footer{
+        font-size:45px;
+    }
+}
