@@ -577,9 +577,11 @@ footer .number-link:nth-child(3){
     .picture-container-in-hotel-div{
         max-width: 100%;
         margin: 0 auto;
+        width: 100%;
     }
     .picture-container-in-hotel-div div{
         margin-top: 15px;
+        width: 100%;
     }
     .price-container{
         flex-direction: column;
