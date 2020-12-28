@@ -84,7 +84,7 @@ header nav ul li:first-child a{
 .fairy-tail{
     display: flex;
     flex-direction: column;
-    max-width: 70%;
+    max-width: 75%;
     margin: 0 auto;
 }
 .fairy-tail-container{
@@ -94,6 +94,7 @@ header nav ul li:first-child a{
     margin-top: 100px;
     margin-bottom: 50px;
     margin-right:auto;
+    margin-left: 50px;
 }
 .heading-in-fairy-tail-div{
     font-family: 'Balqis';
@@ -118,7 +119,7 @@ header nav ul li:first-child a{
 }
 .list-in-fairy-tail-div{
     margin: auto 0;
-    transform: translate(-150px);
+    transform: translate(-85px);
 }
 .list-in-fairy-tail-div div{
     font-family: 'Roboto Condensed', sans-serif;
@@ -138,7 +139,7 @@ header nav ul li:first-child a{
 .our-trip{
     display: flex;
     flex-direction: column;
-    max-width: 84.5%;
+    max-width: 83.7%;
     margin-left: auto;
     margin-top: 100px;
 }
@@ -225,7 +226,7 @@ header nav ul li:first-child a{
 .hotel{
     display: flex;
     flex-direction: column;
-    max-width: 70%;
+    max-width: 67.5%;
     margin: 0 auto;
     margin-top: 100px;
 }
@@ -259,7 +260,7 @@ header nav ul li:first-child a{
 .price{
     display: flex;
     flex-direction: column;
-    max-width: 70%;
+    max-width: 67.5%;
     margin: 0 auto;
     margin-top: 100px;
 }
