@@ -70,13 +70,13 @@ header nav ul li:first-child a{
 .major-heading-in-header{
     font-family: 'Balqis';
     font-weight: 400;
-    font-size: 14vw;
+    font-size: 13vw;
     margin: 0 auto;
 }
 .under-the-heading-in-header{
     font-family: 'Roboto Condensed', sans-serif;
     font-style: italic;
-    font-size: 3.5vw;
+    font-size: 3vw;
     font-weight: 350;
     padding-left:390px;
     margin: 0px;
