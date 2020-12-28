@@ -504,8 +504,8 @@ footer .number-link:nth-child(3){
     .picture-in-fairy-tail-div{
         transform: translate(0);
         max-width: 100%;
-        width: 850px;
-        height: 590px;
+        width: 100%;
+        height: 100%;
         flex-grow: 8;
         margin-bottom: 25px;
     }
@@ -532,13 +532,16 @@ footer .number-link:nth-child(3){
     .picture-in-our-trip-div{
         transform: scale(1);
         max-width: 100%;
-        width: 750px;
+        width: 100%;
+        height: 100%;
+    }
+    .list-in-our-trip-div div{
+        margin: 0;
     }
     .adaptation-container{
         display: flex;
         max-width: 100%;
         justify-content: space-around;
-        flex-grow: 24;
     }
     .heading-container-in-our-trip-div{
         max-width: 100%;
@@ -551,7 +554,7 @@ footer .number-link:nth-child(3){
         margin-bottom: 50px;
     }
     .button-in-our-trip-div{
-        margin: 0 auto;
+        margin: 25px auto;
         width: 40%;
     }
     .hotel{
@@ -563,12 +566,12 @@ footer .number-link:nth-child(3){
     }
     .list-in-hotel-div{
         margin: 0 auto;
-        max-width: 80%;
+        max-width: 100%;
         text-align: justify;
     }
     .picture-in-hotel-div{
         margin: 0 auto;
-        width: 80%;
+        width: 100%;
         height: 100%;
     }
     .picture-container-in-hotel-div{
@@ -602,6 +605,8 @@ footer .number-link:nth-child(3){
         margin-left: 0;
         max-width: 100%;
         margin: 0 auto;
+        width: 100%;
+        height: 100%;
     }
     .list-in-tour-date-div{
         max-width: 100%;
@@ -657,57 +662,6 @@ footer .number-link:nth-child(3){
         display: none;
     }
 }
-@media (max-width:715px){
-    .picture-container-in-hotel-div{
-        flex-direction: column;
-        margin: 0;
-    }
-    .picture-container-in-hotel-div img{
-        height: 100%;
-    }
-    .picture-container-in-hotel-div div{
-        margin: 3px;
-    }
-    .picture-in-tour-date-div{
-        width: 400px;
-        height: 500px;
-    }
-}
-@media (max-width:950px){
-    .picture-in-fairy-tail-div{
-        width:750px;
-        height: 490px;
-    }
-}
-@media (max-width:800px){
-    .picture-in-fairy-tail-div{
-        width: 650px;
-        height: 390px;
-    }
-    .picture-in-tour-date-div{
-        width: 500px;
-        height: 600px;
-    }
-}
-@media(max-width:450px){
-    .adaptation-container{
-        flex-direction: column;
-        justify-content: baseline;
-    }
-    .button-div-in-our-trip{
-        text-align: left;
-        margin-left: 0;
-    }
-    .picture-in-tour-date-div{
-        width: 300px;
-        height: 400px;
-    }
-}
-@media (max-width:650px){
-    .picture-in-our-trip-div{
-        height: 650px;
-    }
-}
 @media (max-width:750px){
     .heading-in-footer{
         font-size:45px;
@@ -721,5 +675,28 @@ footer .number-link:nth-child(3){
         padding-top: 45px;
         position: relative;
         right:15px;
+    }
+}
+@media (max-width:715px){
+    .picture-container-in-hotel-div{
+        flex-direction: column;
+        margin: 0;
+    }
+    .picture-container-in-hotel-div img{
+        height: 100%;
+    }
+    .picture-container-in-hotel-div div{
+        margin: 3px;
+    }
+}
+@media(max-width:500px){
+    .adaptation-container{
+        flex-direction: column;
+        justify-content: baseline;
+        align-items: center;
+    }
+    .button-div-in-our-trip{
+        text-align: center;
+        margin-left: 0;
     }
 }
