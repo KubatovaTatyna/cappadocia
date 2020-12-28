@@ -246,6 +246,9 @@ header nav ul li:first-child a{
     margin-bottom:15px ;
     justify-content: space-between;
 }
+.picture-container-in-hotel-div div{
+    width: 100%;
+}
 .picture-container-in-hotel-div:last-child{
     margin-bottom: 0;
 }
@@ -492,6 +495,9 @@ footer .number-link:nth-child(3){
     header nav ul{
         flex-direction: column;
     }
+    .heading-in-header{
+        width: 100%;
+    }
     .under-the-heading-in-header{
         padding-left: 0;
     }
@@ -700,5 +706,28 @@ footer .number-link:nth-child(3){
     .button-div-in-our-trip{
         text-align: center;
         margin-left: 0;
+    }
+}
+@media (min-width:2000px){
+     header nav{
+        justify-content: space-around;
+    }
+    .fairy-tail{
+        max-width: 45%;
+    }
+    .our-trip{
+        max-width: 45%;
+    }
+    .hotel{
+        max-width: 45%;
+    }
+    .price{
+        max-width: 45%;
+    }
+    .tour-date-container{
+        max-width: 45%;
+    }
+    .footer-container{
+        max-width: 45%;
     }
 }
