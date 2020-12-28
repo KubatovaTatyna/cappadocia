@@ -705,5 +705,15 @@ footer .number-link:nth-child(3){
 @media (max-width:750px){
     .heading-in-footer{
         font-size:45px;
+        margin-top: 45px;
+    }
+    .balloon-picture-in-footer{
+        background-size: 300px;
+    }
+    .link-in-footer-balloon{
+        font-size: 15px;
+        padding-top: 45px;
+        position: relative;
+        right:15px;
     }
 }
