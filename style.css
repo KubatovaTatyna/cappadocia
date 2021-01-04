@@ -711,7 +711,13 @@ footer .number-link:nth-child(3){
 }
 @media (min-width:2000px){
      header nav{
-        justify-content: space-around;
+         max-width: 45%;
+    }
+    .major-heading-in-header{
+        font-size: 2vw;
+    }
+    .under-the-heading-in-header{
+        font-size: 1vw;
     }
     .fairy-tail{
         max-width: 45%;
