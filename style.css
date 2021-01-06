@@ -523,9 +523,10 @@ footer .number-link:nth-child(3){
         width:90%;
     }
     .heading-container{
-        max-width: 100%;
+        max-width: 90%;
         margin: 100px auto;
         margin-bottom: 50px;
+        flex-shrink: 2;
     }
     .our-trip-container{
         flex-direction: column-reverse;
@@ -536,20 +537,20 @@ footer .number-link:nth-child(3){
     }
     .picture-in-our-trip-div{
         transform: scale(1);
-        max-width: 100%;
-        width: 100%;
-        height: 100%;
+        width: 90%;
+        height: 90%;
     }
     .list-in-our-trip-div div{
         margin: 0;
     }
     .adaptation-container{
         display: flex;
-        max-width: 100%;
+        max-width: 90%;
         justify-content: space-around;
+        text-align: center;
     }
     .heading-container-in-our-trip-div{
-        max-width: 100%;
+        max-width: 90%;
         margin: 100px auto;
         margin-bottom: 50px;
     }
@@ -559,8 +560,7 @@ footer .number-link:nth-child(3){
         margin-bottom: 50px;
     }
     .button-in-our-trip-div{
-        margin: 25px auto;
-        width: auto;
+        margin: 25px;
     }
     .hotel{
         margin: 0 auto;
@@ -701,6 +701,9 @@ footer .number-link:nth-child(3){
         flex-direction: column;
         justify-content: baseline;
         align-items: center;
+    }
+    .adaptation-container div{
+        text-align: center;
     }
     .button-div-in-our-trip{
         text-align: center;
