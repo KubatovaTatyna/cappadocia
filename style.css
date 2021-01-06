@@ -511,7 +511,8 @@ footer .number-link:nth-child(3){
     .picture-in-fairy-tail-div{
         transform: translate(0);
         width: 90%;
-        height: 100%;
+        height: 90%;
+        margin: 0 auto;
         margin-bottom: 25px;
     }
     .list-in-fairy-tail-div{
@@ -521,6 +522,7 @@ footer .number-link:nth-child(3){
     .list-in-fairy-tail-div div{
         text-align: justify;
         width:90%;
+        margin: 0 auto;
     }
     .heading-container{
         max-width: 90%;
@@ -539,9 +541,13 @@ footer .number-link:nth-child(3){
         transform: scale(1);
         width: 90%;
         height: 90%;
+        margin: 0 auto;
     }
     .list-in-our-trip-div div{
         margin: 0;
+    }
+    .list-in-our-trip-div{
+        margin: 0 auto;
     }
     .adaptation-container{
         display: flex;
@@ -555,7 +561,7 @@ footer .number-link:nth-child(3){
         margin-bottom: 50px;
     }
     .heading-container-in-hotel-div{
-        max-width: 100%;
+        max-width: 90%;
         margin: 100px auto;
         margin-bottom: 50px;
     }
@@ -571,13 +577,13 @@ footer .number-link:nth-child(3){
     }
     .list-in-hotel-div{
         margin: 0 auto;
-        max-width: 100%;
+        max-width: 90%;
         text-align: justify;
     }
     .picture-in-hotel-div{
         margin: 0 auto;
-        width: 100%;
-        height: 100%;
+        width: 90%;
+        height: 90%;
     }
     .picture-container-in-hotel-div{
         max-width: 100%;
