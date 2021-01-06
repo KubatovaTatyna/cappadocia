@@ -510,10 +510,8 @@ footer .number-link:nth-child(3){
     }
     .picture-in-fairy-tail-div{
         transform: translate(0);
-        max-width: 100%;
-        width: 100%;
+        width: 90%;
         height: 100%;
-        flex-grow: 8;
         margin-bottom: 25px;
     }
     .list-in-fairy-tail-div{
@@ -522,7 +520,7 @@ footer .number-link:nth-child(3){
     }
     .list-in-fairy-tail-div div{
         text-align: justify;
-        width: calc(0px + 100%);
+        width:90%;
     }
     .heading-container{
         max-width: 100%;
