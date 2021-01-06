@@ -6,4 +6,237 @@
 	font-weight: normal;
 	font-style: normal;
 }
+width 390px
+margi-bottom 25px
+margin auto 0
 
+
+{
+    header nav{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    header nav ul{
+        flex-direction: column;
+    }
+    header nav ul li{
+        margin-bottom: 15px;
+    }
+    .heading-in-header{
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+    .major-heading-in-header{
+        transform: scale(.8);
+        transform-origin: top;
+
+    }
+    .under-the-heading-in-header{
+        padding:0;
+        margin: 0 auto;
+    }
+    .fairy-tail-container{
+        flex-wrap: wrap;
+        max-width: 70%;
+        margin: 0 auto;
+        flex-shrink: 2;
+    }
+    .picture-in-fairy-tail-div{
+        transform: scale(.8);
+        max-width: 100%;
+        margin-bottom: 25px;
+        margin: 0 auto;
+    }
+    .list-in-fairy-tail-div{
+        max-width: 85%;
+        margin: 0 auto;
+    }
+    .heading-container{
+        max-width: 90%;
+        margin-left: auto;
+    }
+    
+    .our-trip-container{
+        flex-direction: column-reverse;
+        max-width: 70%;
+        margin: 0 auto;
+        flex-shrink: 2;
+    }
+    .picture-in-our-trip-div{
+        max-width: 100%;
+    }
+    .hotel-container{
+        flex-wrap: wrap;
+        max-width: 70%;
+        width: 100%;
+        margin: 0 auto;
+        flex-shrink: 2;
+    }
+    .picture-of-hotel{
+        max-width: 96%;
+        margin:4% ;
+    }
+    .picture-in-hotel-div{
+        max-width: 100%;
+        margin-right: 0;
+    }
+    .list-in-hotel-div{
+        max-width: 70%;
+        width: 100%;
+    }
+    .price-container{
+        flex-wrap: wrap;
+        max-width: 70%;
+    }
+    .balloons{
+        display: none;
+    }
+    .price-container div:first-child{
+        width: 100%;
+        max-width: 70%;
+        margin-right: 0;
+    }
+    .tour-date-container{
+        flex-wrap: wrap-reverse;
+    }
+    .picture-in-tour-date-div{
+        margin-left: 5%;
+        margin-bottom: 40px;
+        max-width: 100%;
+    }
+    .list-in-tour-date-div{
+        max-width: 100%;
+    }
+    footer{
+        flex-shrink: 2;
+    }
+    .footer-container{
+        flex-wrap: wrap-reverse;
+        max-width: 70%;
+        margin: 0px auto;
+    }
+    .heading-in-footer{
+        margin:0 auto;
+        width: 100%;
+        max-width: 100%;
+        margin-top: 25px;
+    }
+    .email-icon-in-balloon-picture{
+        height: 18px;
+        width: 18px;
+        margin-right: 5px;
+    }
+    .balloon-picture-in-footer{
+        background-size: 100%;
+    }
+    .heading-container{
+        max-width: 70%;
+        margin:  0 auto;
+        margin-top: 150px;
+    }
+    .heading-container-in-hotel-div{
+        max-width: 70%;
+        margin: 0 auto;
+    }
+    .heading-container-in-price-div{
+        max-width: 70%;
+        margin: 0 auto;
+    }
+    .heading-in-balloon-picture{
+        max-width: 100%;
+    }
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cappadocia</title>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-links">
+                <a href="#" class="active-link">Маршрут</a>
+                <a href="#">Отель</a>
+                <a href="#">Стоимость</a>
+            </div>
+            <div class="nav-number">
+                <img src="./images/Group.png" alt="phone icon">
+                +3363252550516
+            </div>
+        </nav>
+    </header>
+</body>
+</html>
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@font-face {
+	font-family: 'Balqis';
+	src: url('fonts/Balqis.eot');
+	src: local('☺'), url('fonts/Balqis.woff') format('woff'), url('fonts/Balqis.ttf') format('truetype'), url('fonts/Balqis.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+*{
+    box-sizing: border-box;
+}
+body,
+html{
+    margin: 0;
+}
+header{
+    background-image: url(./images/Rectangle\ 43.png);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px;
+    
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 75%;
+    margin: 0 auto;
+}
+.nav-links{
+    margin-top: 15px;
+}
+.nav-links a{
+    margin-right: 5px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.active-link{
+    border-bottom: 3px solid black;
+}
+.nav-number{
+    margin-top: 15px;
+    font-family: 'Roboto Condensed', 
+    sans-serif;
+}
+.nav-number img{
+    width: 15px;
+}
+
+
+    
+    
+    
+    
+    
