@@ -510,8 +510,8 @@ footer .number-link:nth-child(3){
     }
     .picture-in-fairy-tail-div{
         transform: translate(0);
-        width: 90%;
-        height: 90%;
+        width: 80%;
+        height: 80%;
         margin: 0 auto;
         margin-bottom: 25px;
     }
@@ -521,11 +521,11 @@ footer .number-link:nth-child(3){
     }
     .list-in-fairy-tail-div div{
         text-align: justify;
-        width:90%;
+        width:80%;
         margin: 0 auto;
     }
     .heading-container{
-        max-width: 90%;
+        max-width: 80%;
         margin: 100px auto;
         margin-bottom: 50px;
         flex-shrink: 2;
@@ -539,29 +539,29 @@ footer .number-link:nth-child(3){
     }
     .picture-in-our-trip-div{
         transform: scale(1);
-        width: 90%;
-        height: 90%;
+        width: 80%;
+        height: 80%;
         margin: 0 auto;
     }
     .list-in-our-trip-div div{
-        margin: 0;
+        margin: 0 auto;
     }
     .list-in-our-trip-div{
         margin: 0 auto;
     }
     .adaptation-container{
         display: flex;
-        max-width: 90%;
+        max-width: 80%;
         justify-content: space-around;
         text-align: center;
     }
     .heading-container-in-our-trip-div{
-        max-width: 90%;
+        max-width: 80%;
         margin: 100px auto;
         margin-bottom: 50px;
     }
     .heading-container-in-hotel-div{
-        max-width: 90%;
+        max-width: 80%;
         margin: 100px auto;
         margin-bottom: 50px;
     }
@@ -577,13 +577,13 @@ footer .number-link:nth-child(3){
     }
     .list-in-hotel-div{
         margin: 0 auto;
-        max-width: 90%;
+        max-width: 80%;
         text-align: justify;
     }
     .picture-in-hotel-div{
         margin: 0 auto;
-        width: 90%;
-        height: 90%;
+        width: 80%;
+        height: 80%;
     }
     .picture-container-in-hotel-div{
         max-width: 100%;
@@ -596,18 +596,20 @@ footer .number-link:nth-child(3){
     }
     .price-container{
         flex-direction: column;
+        max-width: 80%;
+        margin: 0 auto;
     }
     .heading-container-in-price-div{
         margin: 100px auto;
         margin-bottom: 50px;
     }
     .price-container div:first-child{
-        max-width: 90%;
+        max-width: 100%;
         margin-right: 0;
         text-align: center;
     }
     .price-container div:nth-last-child(2){
-        max-width: 90%;
+        max-width: 100%;
         text-align: center;
     }
     .tour-date-container{
@@ -616,13 +618,13 @@ footer .number-link:nth-child(3){
     }
     .picture-in-tour-date-div{
         margin-left: 0;
-        max-width: 100%;
         margin: 0 auto;
-        width: 100%;
-        height: 100%;
+        width: 80%;
+        height: 80%;
     }
     .list-in-tour-date-div{
-        max-width: 100%;
+        max-width: 80%;
+        margin: 0 auto;
     }
     .list-in-tour-date-div input{
         width: auto;
@@ -697,9 +699,7 @@ footer .number-link:nth-child(3){
     }
     .picture-container-in-hotel-div img{
         height: 100%;
-    }
-    .picture-container-in-hotel-div div{
-        margin: 3px;
+        width: 100%;
     }
 }
 @media(max-width:500px){
