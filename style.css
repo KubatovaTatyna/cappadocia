@@ -736,6 +736,15 @@ footer .number-link:nth-child(3){
         margin-left: 0;
     }
 }
+@media (min-width:1500px){
+    .major-heading-in-header{
+        font-size: 7.5vw;
+    }
+    .under-the-heading-in-header{
+        font-size: 2.7vw;
+        padding-left: 150px;
+    }
+}
 @media (min-width:2000px){
      header nav{
          max-width: 45%;
@@ -744,7 +753,8 @@ footer .number-link:nth-child(3){
         font-size: 2vw;
     }
     .under-the-heading-in-header{
-        font-size: 1vw;
+        font-size: .8vw;
+        padding-left: 65px;
     }
     .fairy-tail{
         max-width: 45%;
